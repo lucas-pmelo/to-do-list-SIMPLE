@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    flex-direction: column;
+}
+
+.container {
+    border: solid black 5px;
+    border-radius: 20px;
+    padding: 1rem 20rem 3rem 20rem;
+    margin-top: 1rem;
+}
+
+#input {
+    width: 15rem;
+    height: 1.5rem;
+}
+
+.list-container {
+    margin-top: 2rem;
+}
+
+.x-button {
+    margin-left: .5rem;
+}
+
+li {
+    list-style: none;
+    margin-bottom: .5rem;
+    display: flex;
+    align-items: center;
+    margin-left: -10rem;
+}
+
+li p {
+    margin: .2rem;
+}
+
+ul li {
+    margin-left: 1rem;
+}
+
+.done {
+    text-decoration: line-through;
+}
